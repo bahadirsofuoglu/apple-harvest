@@ -1,0 +1,46 @@
+.tree {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.trunk {
+  width: 105px;
+  height: 352px;
+  border-radius: 8px;
+  background: #311616;
+}
+.head {
+  position: absolute;
+  z-index: 1;
+  width: 220px;
+  height: 220.9px;
+  border-radius: 50%;
+  background: #1d3418;
+}
+
+.h1 {
+  transform: translateX(-60px) translateY(-160px);
+}
+.h2 {
+  transform: translateX(20px) translateY(-200px);
+}
+.h3 {
+  transform: translateX(40px) translateY(-300px);
+}
+.h4 {
+  transform: translateX(-40px) translateY(-360px);
+}
+.h5 {
+  transform: translateX(-120px) translateY(-320px);
+}
+.h6 {
+  transform: translateX(-140px) translateY(-220px);
+}
+.graund {
+  position: absolute;
+  width: 559px;
+  height: 105px;
+  background: rgba(36, 27, 16, 0.92);
+  border-radius: 50%;
+  transform: translateX(-220px) translateY(160px);
+}
