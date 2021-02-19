@@ -1,6 +1,7 @@
 @import "components/tree";
 @import "components/basket";
 @import "components/apples";
+@import "components/button";
 
 @import "pages/index";
 
@@ -12,4 +13,7 @@ body {
   height: 100vh;
   display: flex;
   justify-content: center;
+}
+* {
+  box-sizing: border-box;
 }

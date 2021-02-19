@@ -6,8 +6,6 @@
   height: 38px;
   border-radius: 55% 57% 40% 42% / 64% 65% 70% 68%;
   border-right: 1px solid #e40000;
-
-  transform: translateY(-190px);
 }
 .apple::after {
   position: absolute;
@@ -19,4 +17,12 @@
   left: 20px;
   border-radius: 50%;
   transform: rotate(30.43deg);
+}
+
+.p1 {
+  transform: translateY(-190px);
+  transition: all 0.2s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+}
+.p1-dropped {
+  transform: translateY(280px) rotate(38deg);
 }

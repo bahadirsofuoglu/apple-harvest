@@ -1,3 +1,3 @@
 <template>
-  <div class="apple"></div>
+  <div class="apple p1"></div>
 </template>
