@@ -1,0 +1,81 @@
+.basket {
+  position: absolute;
+}
+
+.body {
+  position: absolute;
+  z-index: 1;
+  background: #c0b297;
+  border: 5px solid #1d1111;
+  width: 280px;
+  height: 130px;
+  border-radius: 300px 200px 231px 231px / 0px 0px 100px 100px;
+  transform: translateX(-145px) translateY(150px);
+}
+.basket-header {
+  position: absolute;
+  z-index: 5;
+  width: 200px;
+  height: 100px; /* as the half of the width */
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border: 10px solid #c0b297;
+  border-bottom: 0;
+  transform: translateX(-105px) translateY(50px);
+
+  box-sizing: border-box;
+}
+.line1 {
+  position: absolute;
+  width: 5px;
+  z-index: 5;
+  height: 140px;
+  background: #1d1111;
+  /*  280x 200y */
+  transform: translatex(0px) translateY(150px) rotate(0);
+}
+.line2 {
+  position: absolute;
+  width: 5px;
+  z-index: 5;
+  height: 130px;
+  background: #1d1111;
+
+  transform: translatex(80px) translateY(150px) rotate(6deg);
+}
+.line3 {
+  position: absolute;
+  width: 5px;
+  z-index: 5;
+  height: 130px;
+  background: #1d1111;
+
+  transform: translatex(-80px) translateY(150px) rotate(174deg);
+}
+.line4 {
+  position: absolute;
+  width: 240px;
+  z-index: 5;
+  height: 5px;
+  background: #1d1111;
+
+  transform: translatex(-120px) translateY(260px);
+}
+.line5 {
+  position: absolute;
+  width: 285px;
+  z-index: 5;
+  height: 5px;
+  background: #1d1111;
+
+  transform: translatex(-145px) translateY(220px);
+}
+.line6 {
+  position: absolute;
+  width: 285px;
+  z-index: 5;
+  height: 5px;
+  background: #1d1111;
+
+  transform: translatex(-145px) translateY(180px);
+}
