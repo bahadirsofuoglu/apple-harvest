@@ -1,0 +1,22 @@
+.apple {
+  position: absolute;
+  background-color: #e40000;
+  z-index: 6;
+  width: 40px;
+  height: 38px;
+  border-radius: 55% 57% 40% 42% / 64% 65% 70% 68%;
+  border-right: 1px solid #e40000;
+
+  transform: translateY(-190px);
+}
+.apple::after {
+  position: absolute;
+  content: "";
+  width: 6px;
+  height: 20px;
+  background: #000000;
+  top: -14px;
+  left: 20px;
+  border-radius: 50%;
+  transform: rotate(30.43deg);
+}
