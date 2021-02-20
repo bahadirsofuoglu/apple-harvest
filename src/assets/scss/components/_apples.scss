@@ -1,7 +1,12 @@
+.apples {
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
 .apple {
   position: absolute;
   background-color: #e40000;
-  z-index: 6;
+  z-index: 3;
   width: 40px;
   height: 38px;
   border-radius: 55% 57% 40% 42% / 64% 65% 70% 68%;
@@ -23,18 +28,49 @@
 
 .p1 {
   top: 380px;
-  left: 380px;
 }
 .p1-dropped {
-  top: 740px;
-  left: 380px;
+  top: 640px;
 }
 
 .p2 {
   top: 300px;
+  left: 40px;
 }
 .p2-dropped {
+  top: 640px;
+  left: 40px;
+}
+.p3 {
+  top: 380px;
+  left: 100px;
+}
+.p3-dropped {
+  top: 640px;
+  left: 100px;
+}
+.p4 {
+  top: 480px;
+  left: 340px;
+}
+.p4-dropped {
   top: 740px;
+  left: 380px;
+}
+
+.p5 {
+  top: 452px;
+}
+.p5-dropped {
+  top: 740px;
+}
+.p6 {
+  top: 480px;
+  right: 330px;
+}
+.p6-dropped {
+  top: 740px;
+  right: 380px;
 }
 .shake-apple {
   animation: shake 3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;

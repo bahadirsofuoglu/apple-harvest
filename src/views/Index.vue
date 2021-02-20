@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <Button />
-    <Tree />
+    <div>
+      <Tree />
+      <Apples />
+    </div>
     <Basket />
-    <Apples />
   </div>
 </template>
 <script>
