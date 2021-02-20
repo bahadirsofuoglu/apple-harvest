@@ -1,6 +1,5 @@
 button {
-  position: absolute;
-  width: 442px;
+  width: 400px;
   height: 113px;
   z-index: 5;
   background: #570e58;
@@ -12,6 +11,6 @@ button {
   font-size: 67px;
   line-height: 100px;
   letter-spacing: 0.4em;
-  transform: translateY(-400px);
+  transform: translateY(400px);
   color: #ffffff;
 }

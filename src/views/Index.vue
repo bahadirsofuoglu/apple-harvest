@@ -1,11 +1,14 @@
 <template>
   <div class="container">
-    <Button />
     <div class="tree-zone">
       <Apples />
       <Tree />
+      <Basket />
     </div>
-    <Basket />
+
+    <div>
+      <Button />
+    </div>
   </div>
 </template>
 <script>

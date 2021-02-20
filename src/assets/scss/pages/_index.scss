@@ -1,16 +1,17 @@
 .container {
-  position: absolute;
-  top: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 100vh;
-  width: 75%;
-  background: #ffffff;
 }
 .tree-zone {
   position: absolute;
+  margin-bottom: 170px;
   display: flex;
   justify-content: center;
 }

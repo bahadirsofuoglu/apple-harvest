@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="tree-zone">
     <div :class="`tree ${shakeClass}`">
       <div class="head h1" />
       <div class="head h2" />
@@ -9,8 +9,6 @@
       <div class="head h6" />
       <div class="trunk" />
     </div>
-
-    <div class="graund" />
   </div>
 </template>
 <script>
