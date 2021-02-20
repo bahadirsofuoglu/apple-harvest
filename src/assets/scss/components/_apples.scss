@@ -7,6 +7,7 @@
   border-radius: 55% 57% 40% 42% / 64% 65% 70% 68%;
   border-right: 1px solid #e40000;
 }
+
 .apple::after {
   position: absolute;
   content: "";
@@ -20,9 +21,38 @@
 }
 
 .p1 {
-  transform: translateY(-580px);
-  transition: all 0.2s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  top: 300px;
 }
 .p1-dropped {
-  transform: translateY(280px) rotate(38deg);
+  top: 380px;
+}
+
+.p2 {
+  transform: translateY(-580px);
+}
+.p2-dropped {
+  transform: translateX(-80px) translateY(-160px);
+}
+.shake-apple {
+  animation: shake 2.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+}
+@keyframes shake-apple {
+  10%,
+  90% {
+    transform: translate3d(-2px, 0, 0);
+  }
+  20%,
+  80% {
+    transform: translate3d(4px, 0, 0);
+  }
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-8px, 0, 0);
+  }
+  40%,
+  60% {
+    transform: translate3d(8px, 0, 0);
+  }
 }

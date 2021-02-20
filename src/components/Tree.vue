@@ -1,5 +1,5 @@
 <template>
-  <div class="tree">
+  <div :class="`tree ${shakeClass}`">
     <div class="head h1" />
     <div class="head h2" />
     <div class="head h3" />
@@ -10,3 +10,11 @@
     <div class="graund" />
   </div>
 </template>
+<script>
+import { mapState } from 'vuex'
+export default {
+  computed: {
+    ...mapState(['shakeClass'])
+  }
+}
+</script>

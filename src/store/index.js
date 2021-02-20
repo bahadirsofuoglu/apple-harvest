@@ -5,11 +5,15 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    dropedClass: ''
+    dropedClass: '',
+    shakeClass: ''
   },
   mutations: {
     CHANGE_CLASS (state) {
-      state.dropedClass = 'dropped'
+      state.shakeClass = 'shake'
+      setTimeout(() => {
+        state.dropedClass = '-dropped'
+      }, 3000)
     }
   },
   actions: {
