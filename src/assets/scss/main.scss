@@ -17,3 +17,19 @@ body {
 * {
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 600px) {
+  button {
+    margin-top: 180px;
+    width: 250px;
+  }
+  .graund {
+    width: 550px;
+  }
+  .body {
+    overflow: auto;
+  }
+  .container {
+    background-color: #587958;
+  }
+}
