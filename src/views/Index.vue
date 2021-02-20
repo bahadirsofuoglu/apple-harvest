@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <Button />
-    <div>
-      <Tree />
+    <div class="tree-zone">
       <Apples />
+      <Tree />
     </div>
     <Basket />
   </div>
