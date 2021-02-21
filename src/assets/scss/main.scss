@@ -1,3 +1,10 @@
+@import "variables";
+
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@700&display=swap");
+
+@import "normalize-scss";
+@include normalize();
+
 @import "components/tree";
 @import "components/basket";
 @import "components/apples";
@@ -5,11 +12,8 @@
 
 @import "pages/index";
 
-@import "normalize-scss";
-@include normalize();
-
 body {
-  background: #d0ffd1;
+  background: $color-bg;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +21,6 @@ body {
 
 @media screen and (max-height: 900px) {
   .container {
-    background-color: #d0ffd1;
     margin-top: 100px;
   }
 }

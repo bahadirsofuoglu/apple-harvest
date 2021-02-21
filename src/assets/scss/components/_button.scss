@@ -2,12 +2,14 @@ button {
   position: absolute;
   padding: 30px 100px 30px 100px;
   z-index: 3;
-  background: #570e58;
+  background: $color-button;
   border-radius: 14px;
   -webkit-appearance: none;
 
+  font-family: Mukta Malar;
+  font-style: normal;
   font-weight: bold;
-  font-size: 97px;
+  font-size: 18px;
   letter-spacing: 0.4em;
   color: #ffffff;
 

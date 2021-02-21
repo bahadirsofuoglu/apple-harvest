@@ -1,11 +1,11 @@
 .apple {
   position: absolute;
-  background-color: #e40000;
+  background-color: $color-apple;
   z-index: 3;
   width: 40px;
   height: 38px;
   border-radius: 55% 57% 40% 42% / 64% 65% 70% 68%;
-  border-right: 1px solid #e40000;
+  border-right: 1px solid $color-apple;
 }
 
 .apple::after {
