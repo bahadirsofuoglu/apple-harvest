@@ -7,7 +7,7 @@
     </div>
 
     <div>
-      <Button label="Shake!" @click="shake" />
+      <Button label="SHAKE!" @click="shake" />
     </div>
   </div>
 </template>
