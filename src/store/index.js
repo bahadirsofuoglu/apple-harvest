@@ -13,7 +13,7 @@ export default new Vuex.Store({
       state.shakeClass = 'shake'
       setTimeout(() => {
         state.dropedClass = '-dropped'
-      }, 2000)
+      }, 3500)
     }
   },
   actions: {
