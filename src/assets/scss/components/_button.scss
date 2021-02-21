@@ -11,6 +11,10 @@ button {
   font-size: 67px;
   line-height: 100px;
   letter-spacing: 0.4em;
-  transform: translateX(-140px) translateY(360px);
+  transform: translateX(-147px) translateY(360px);
   color: #ffffff;
+}
+
+button:focus {
+  outline: 0;
 }

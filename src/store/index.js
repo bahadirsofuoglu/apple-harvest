@@ -17,7 +17,7 @@ export default new Vuex.Store({
     }
   },
   actions: {
-    droppedApples ({ commit }) {
+    shakeAndDropApples ({ commit }) {
       commit('CHANGE_CLASS')
     }
   },
