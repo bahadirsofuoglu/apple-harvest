@@ -1,16 +1,16 @@
 button {
-  width: 400px;
-  height: 113px;
-  z-index: 5;
+  position: absolute;
+  padding: 30px 100px 30px 100px;
+  z-index: 3;
   background: #570e58;
   border-radius: 14px;
-
+  -webkit-appearance: none;
   font-family: Myanmar Sangam MN;
   font-style: normal;
   font-weight: bold;
   font-size: 67px;
   line-height: 100px;
   letter-spacing: 0.4em;
-  transform: translateY(400px);
+  transform: translateX(-140px) translateY(360px);
   color: #ffffff;
 }

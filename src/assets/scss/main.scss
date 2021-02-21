@@ -9,7 +9,7 @@
 @include normalize();
 
 body {
-  background: #587958;
+  background: #d0ffd1;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +17,15 @@ body {
 
 @media screen and (max-height: 900px) {
   .container {
-    background-color: #587958;
+    background-color: #d0ffd1;
     margin-top: 100px;
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    button {
+      transform: translateX(-140px) translateY(420px);
+    }
   }
 }
