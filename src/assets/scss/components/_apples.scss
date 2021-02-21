@@ -25,7 +25,7 @@
   left: -105px;
 }
 .p1-dropped {
-  top: 250px;
+  top: 260px;
   left: -55px;
   transition: all 0.09s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
@@ -34,8 +34,8 @@
   top: -280px;
 }
 .p2-dropped {
-  top: 220px;
-  left: -20px;
+  top: 230px;
+  left: -25px;
   transition: all 1.11s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p3 {
@@ -43,8 +43,8 @@
   left: 60px;
 }
 .p3-dropped {
-  top: 250px;
-  left: 8px;
+  top: 260px;
+  left: 4px;
   transition: all 0.7s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p4 {
@@ -62,7 +62,6 @@
 }
 .p5-dropped {
   top: 340px;
-
   transition: all 0.03s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p6 {

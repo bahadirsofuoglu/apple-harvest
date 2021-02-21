@@ -1,5 +1,7 @@
 <template>
-  <button v-bind="$attrs" @click="test">{{ label }}</button>
+  <button v-bind="$attrs" @click="$emit('click')">
+    {{ label }}
+  </button>
 </template>
 <script>
 export default {
@@ -7,11 +9,6 @@ export default {
     label: {
       type: String,
       default: ''
-    }
-  },
-  methods: {
-    test () {
-      this.$store.dispatch('droppedApples')
     }
   }
 }

@@ -7,7 +7,7 @@
     </div>
 
     <div>
-      <Button label="Shake!" />
+      <Button label="Shake!" @click="shake" />
     </div>
   </div>
 </template>
@@ -23,6 +23,11 @@ export default {
     Basket,
     Apples,
     Button
+  },
+  methods: {
+    shake () {
+      this.$store.dispatch('droppedApples')
+    }
   }
 }
 </script>
