@@ -21,3 +21,11 @@ body {
     margin-top: 100px;
   }
 }
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    button {
+      transform: translateX(-140px) translateY(420px);
+    }
+  }
+}
