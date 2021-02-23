@@ -27,7 +27,7 @@
 .p1-dropped {
   top: 260px;
   left: -55px;
-  transition: all 0.09s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 1s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 
 .p2 {
@@ -36,7 +36,7 @@
 .p2-dropped {
   top: 230px;
   left: -25px;
-  transition: all 1.11s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 1.15s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p3 {
   top: -200px;
@@ -45,7 +45,7 @@
 .p3-dropped {
   top: 260px;
   left: 4px;
-  transition: all 0.7s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 0.9s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p4 {
   top: -50px;
@@ -54,7 +54,7 @@
 .p4-dropped {
   top: 340px;
   left: -95px;
-  transition: all 0.05s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 0.7s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 
 .p5 {
@@ -62,7 +62,7 @@
 }
 .p5-dropped {
   top: 340px;
-  transition: all 0.03s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 0.5s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .p6 {
   top: -50px;
@@ -71,7 +71,7 @@
 .p6-dropped {
   top: 340px;
   left: 70px;
-  transition: all 0.01s cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  transition: all 0.3s cubic-bezier(0.755, 0.05, 0.855, 0.06);
 }
 .shake-apple {
   animation: shake 3.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
